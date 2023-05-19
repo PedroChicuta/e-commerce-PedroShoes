@@ -1,0 +1,191 @@
+/*Geral*/
+body{
+	font: 20px "Trebuchet Ms",Helvética, sans-serif;
+	background-color: #dad7cd;
+}
+.negrito{
+	font-weight: bolder;
+}
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: "Bat";
+	src: url(../fonts/Bat.woff);
+}
+h2{
+	padding: 0;
+	margin: 0;
+}
+/*Cabeçalho*/
+header{
+	background-color: #3a5a40;
+	display: flex;
+	height: 200px;
+	align-items: center;
+}
+#cabecalho{
+	width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#logo{
+	font-family: "Bat";
+	color: #a3b18a;
+	font-size: 45px;
+}
+#logo span{
+	color: #dad7cd;
+}
+#navbar input{
+	width: 700px;
+	height: 40px;
+	border-radius: 40px;
+	background: white url(../imagens/lupa.png) no-repeat right;
+	background-position-x: 670px;
+}
+#utilitarios ul li{
+	display: inline-block;
+	height: 30px;
+	float: left;
+	padding-left: 40px;
+	margin-left: 20px;
+}
+#carrinho{
+	background: url(../imagens/carrinho.png) no-repeat left;
+}
+#user{
+	background: url(../imagens/user.png) no-repeat left;
+}
+#utilitarios ul li a{
+	text-decoration: none;
+	color: #dad7cd;
+}
+/*Navegação*/
+#navegacao{
+	background: #a3b18a;
+}
+nav{
+	display: flex;
+	width: 700px;
+	justify-content: center;
+	margin: 0 auto;
+}
+nav ul{
+	display: flex;
+	flex-direction: row;
+}
+nav ul li{
+	padding: 10px 30px;
+}
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+/*Principal*/
+#principal{
+
+	width: 1600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#caixa-compra{
+	background: #3a5a40;
+	width: 550px;
+	height: 600px;
+	margin-right: 50px;
+	padding: 10px;
+	margin: 0 auto;
+}
+#caixa-compra #titulo{
+	color: #dad7cd;
+	font: 40px;
+	margin-bottom:10px;
+}
+#caixa-compra #frete{
+	padding-left: 35px;
+	background: url(../imagens/frete.png) left no-repeat;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+#caixa-compra #preco{
+	font-size: 34px;
+	color: #dad7cd;
+	margin-bottom: 5px;
+}
+#caixa-compra #textos{
+	color: #dad7cd;
+}
+#caixa-compra #tamanhos{
+	width: 70%;
+}
+#caixa-compra #tamanhos ul{
+	display: flex;
+	justify-content: space-between;
+}
+#caixa-compra #tamanhos ul li{
+	padding: 5px;
+	background: #4f772d;
+	border-radius: 360px;
+	border:3px solid #344e41;
+}
+#caixa-compra #tamanhos ul li a{
+	text-decoration: none;
+	color:#dad7cd ;
+}
+#caixa-compra #tamanhos ul li a:hover{
+	color: #90a955;
+}
+
+#botao{
+	display: flex;
+	justify-content: center;
+}
+#botao span{
+	margin-top: 150px;
+	height: 45px;
+	width: 300px;
+	background: #4f772d;
+	display: flex;
+	align-items: center;
+	border: 2px solid #000814;
+}
+#botao a{
+	text-decoration: none;
+	color: #dad7cd;
+	margin: 0 auto;
+	text-transform: uppercase;
+	font-size: 23px;
+}
+#botao span:hover{
+	background-color: rgba(79, 119, 45, 0.8);
+	cursor: pointer;
+}
+#titulo2{
+	color:#dad7cd;
+}
+#imagem{
+	border: 15px solid #a3b18a;
+	cursor: pointer;
+
+}
+/*Footer*/
+footer{
+	background: #3a5a40;
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+footer span{
+	margin: 0 auto;
+	color: #fff;
+}
